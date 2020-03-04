@@ -26,14 +26,13 @@ namespace DSCC_CW1_5591.Repositories
         public Product GetProductById(int productId)
         {
             var product = _dbContext.Products.Find(productId);
-            _dbContext.Entry(product).Reference(p => p.CategoryName);
             return product;
 
         }
 
         public IEnumerable<Product> GetProducts()
         {
-            return _dbContext.Products.Include(p => p.CategoryName).ToList();
+            return _dbContext.Products.ToList();
         }
 
         public void InsertProduct(Product product)

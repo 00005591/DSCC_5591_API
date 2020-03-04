@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DSCC_CW1_5591</name>
+    </assembly>
+    <members>
+        <member name="M:DSCC_CW1_5591.Controllers.ProductController.Get">
+            <summary>
+            This method returns information for array of products
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DSCC_CW1_5591.Controllers.ProductController.Get(System.Int32)">
+            <summary>
+            This method returns information about specific product which is passed with ID 
+            </summary>
+            <param name="id"> Mandatory </param>
+            <returns></returns>
+        </member>
+        <member name="M:DSCC_CW1_5591.Controllers.ProductController.Post(DSCC_CW1_5591.Models.Product)">
+            <summary>
+            This method allows to create new product.
+            </summary>
+            <param name="product"> Mandatory </param>
+            <returns></returns>
+        </member>
+        <member name="M:DSCC_CW1_5591.Controllers.ProductController.Put(System.Int32,DSCC_CW1_5591.Models.Product)">
+            <summary>
+            This method allows to update information of a specific product wich is passed with ID
+            </summary>
+            
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DSCC_CW1_5591.Controllers.ProductController.Delete(System.Int32)">
+            <summary>
+            This method allows to delete information about specific product which is passed with ID
+            </summary>
+            <param name="id"> Mandatory </param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
