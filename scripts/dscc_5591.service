@@ -2,7 +2,7 @@
 Description=Example .NET Web API App running on Linux
 [Service]
 WorkingDirectory=/var/www/dscc_5591
-ExecStart=/usr/bin/dotnet /var/www/dscc_5591/bin/Debug/netcoreapp3.0/DSCC_CW1_5591.dll
+ExecStart=/usr/bin/dotnet /var/www/dscc_5591/bin/Debug/netcoreapp3.1/DSCC_CW1_5591.dll
 Restart=always
 RestartSec=10
 KillSignal=SIGINT

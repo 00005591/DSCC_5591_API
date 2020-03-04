@@ -2867,8 +2867,6 @@
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
-        "Microsoft.CSharp.4.5.0.nupkg.sha512",
-        "Microsoft.CSharp.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
@@ -2886,6 +2884,8 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.5.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
         "ref/net45/_._",
@@ -5650,8 +5650,6 @@
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "System.Linq.Expressions.4.3.0.nupkg.sha512",
-        "System.Linq.Expressions.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5724,7 +5722,9 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "runtimes/aot/lib/netcore50/System.Linq.Expressions.dll"
+        "runtimes/aot/lib/netcore50/System.Linq.Expressions.dll",
+        "system.linq.expressions.4.3.0.nupkg.sha512",
+        "system.linq.expressions.nuspec"
       ]
     },
     "System.Memory/4.5.3": {
@@ -6898,8 +6898,6 @@
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "System.Runtime.InteropServices.RuntimeInformation.4.3.0.nupkg.sha512",
-        "System.Runtime.InteropServices.RuntimeInformation.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6923,7 +6921,9 @@
         "runtimes/unix/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
         "runtimes/win/lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll",
         "runtimes/win/lib/netcore50/System.Runtime.InteropServices.RuntimeInformation.dll",
-        "runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll"
+        "runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
+        "system.runtime.interopservices.runtimeinformation.nuspec"
       ]
     },
     "System.Runtime.Numerics/4.3.0": {
@@ -8341,19 +8341,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NIGORAKHON\\.nuget\\packages\\": {}
+    "C:\\Users\\Islom\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NIGORAKHON\\Desktop\\DSCC_CW1_5591\\DSCC_CW1_5591\\DSCC_CW1_5591\\DSCC_CW1_5591.csproj",
+      "projectUniqueName": "E:\\projects\\DSCC\\DSCC_5591_API\\DSCC_CW1_5591\\DSCC_CW1_5591.csproj",
       "projectName": "DSCC_CW1_5591",
-      "projectPath": "C:\\Users\\NIGORAKHON\\Desktop\\DSCC_CW1_5591\\DSCC_CW1_5591\\DSCC_CW1_5591\\DSCC_CW1_5591.csproj",
-      "packagesPath": "C:\\Users\\NIGORAKHON\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NIGORAKHON\\Desktop\\DSCC_CW1_5591\\DSCC_CW1_5591\\DSCC_CW1_5591\\obj\\",
+      "projectPath": "E:\\projects\\DSCC\\DSCC_5591_API\\DSCC_CW1_5591\\DSCC_CW1_5591.csproj",
+      "packagesPath": "C:\\Users\\Islom\\.nuget\\packages\\",
+      "outputPath": "E:\\projects\\DSCC\\DSCC_5591_API\\DSCC_CW1_5591\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\NIGORAKHON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Islom\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8416,7 +8416,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
