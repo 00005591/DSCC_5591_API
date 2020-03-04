@@ -1,0 +1,5 @@
+#!/bin/bash
+rm -rf /var/www/dscc_5591
+rm -f /etc/httpd/conf.d/dscc_5591.conf
+rm -f /etc/systemd/system/dscc_5991.service
+
